@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>KUPIGOLD</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">KUPI<font color="red">GOLD</font></div>
+    <nav>
+        <ul>
+            <li><a href="#section1">ГОЛДА</a></li>
+            <li><a href="#section2">ГАРАНТИЯ</a></li>
+            <li><a href="#section3">ПОДДЕРЖКА</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="section1">
+    <div class="promo-text">
+        <h2>Специальное предложение!</h2>
+        <p>Получите скидку на выбранные товары.</p>
+    </div>
+
+    <div class="countdown">
+        <h3>До конца акции осталось:</h3>
+        <div id="timer"></div>
+    </div>
+
+    <div class="card-container">
+    <div class="card">
+        <img src="img/gold.png" alt="Картинка 1">
+        <div class="card-content">
+            <h3>100G</h3>
+            <p><s><font color="red">119₽</font></s> 70₽</p>
+            <button class="open-modal-btn" data-value="70">КУПИТЬ</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="img/gold.png" alt="Картинка 1">
+        <div class="card-content">
+            <h3>200G</h3>
+            <p><s><font color="red">270₽</font></s> 130₽</p>
+            <button class="open-modal-btn" data-value="130">КУПИТЬ</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="img/gold.png" alt="Картинка 1">
+        <div class="card-content">
+            <h3>500G</h3>
+            <p><s><font color="red">499₽</font></s> 200₽</p>
+            <button class="open-modal-btn" data-value="200">КУПИТЬ</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="img/gold.png" alt="Картинка 1">
+        <div class="card-content">
+            <h3>1000G</h3>
+            <p><s><font color="red">890₽</font></s> 299₽</p>
+            <button class="open-modal-btn" data-value="299">КУПИТЬ</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="img/gold.png" alt="Картинка 1">
+        <div class="card-content">
+            <h3>2000G</h3>
+            <p><s><font color="red">1399₽</font></s> 479₽</p>
+            <button class="open-modal-btn" data-value="479">КУПИТЬ</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="img/gold.png" alt="Картинка 1">
+        <div class="card-content">
+            <h3>3000G</h3>
+            <p><s><font color="red">1999₽</font></s> 699₽</p>
+            <button class="open-modal-btn" data-value="699">КУПИТЬ</button>
+        </div>
+    </div>
+    </div>
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Отличный выбор!</p>
+            <p>Укажите ваш id в игре и после оплаты мы пополним ваш баланс в течении 10 минут!</p>
+            <input id="numberInput" placeholder="Введите ID">
+            <div class="t">
+                <a href="https://qiwi.com/payment/form/99999?extra[%27accountType%27]=nickname&extra[%27account%27]=TMFLMSK">Оплатить через QIWI</a>
+                <p>Переводом на карту: 2200730256988037</p>
+                <p id="savedValueText"></p>
+            </div>
+            <button id="submitBtn">Я Оплатил</button>
+            <p><font color="gray">*Если вы переведете неверную сумму, то голда не будет начислена</font></p>
+            
+        </div>
+    </div>
+</section>
+
+<section id="section2">
+    <div class="highlighted-text">
+        <h2 class="dov">Нам Доверяют!</h2>
+        <p>
+            Приветствуем вас на нашем веб-сайте, посвященном продаже золота в игре Standoff 2 – вашему надежному и честному партнеру в мире виртуальных активов. Мы понимаем, насколько важно для вас иметь дело с надежным поставщиком игровой валюты, и именно поэтому мы гарантируем прозрачность и честность в каждой сделке.
+            <br><br>
+            <strong>Почему выбирают нас:</strong>
+            <ol>
+                <li><strong>Надежность и Честность:</strong> Наша команда стремится к высшим стандартам этики и честности в мире игровой индустрии. Мы гарантируем, что каждая сделка будет обработана честно и прозрачно, без каких-либо скрытых комиссий или рисков.</li>
+                <li><strong>Сотрудничество с Крупными Ютуберами:</strong> Мы гордимся тем, что сотрудничаем с ведущими ютуберами игровой индустрии, такими как ТикТак, Веля, Люсик и многими другими. Это подтверждение того, что наш сервис доверяют лидеры сообщества.</li>
+                <li><strong>Быстрая и Безопасная Доставка:</strong> Мы ценим ваше время, поэтому гарантируем моментальную доставку вашей игровой валюты после завершения сделки. Кроме того, мы предоставляем безопасные методы передачи, чтобы вы могли наслаждаться своими покупками без волнений.</li>
+                <li><strong>Профессиональная Поддержка:</strong> Наша служба поддержки доступна 24/7, готовая ответить на все ваши вопросы и решить любые возникающие проблемы.</li>
+            </ol>
+        </p>
+        
+    </div>
+</section>
+
+<section id="section3">
+    <div class="feedback-container">
+        <h2>Обратная связь</h2>
+        <p>Если у вас есть вопросы или предложения, не стесняйтесь связаться с нами:</p>
+        <ul>
+            <li>Email: <a href="mailto:info@example.com">kupigold@gmail.com</a></li>
+            <li>Telegram: <a href="https://web.telegram.org/k/#@drkprjct7">@dark_manager</a></li>
+        </ul>
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
