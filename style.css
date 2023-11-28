@@ -299,3 +299,128 @@ body.modal-open {
     margin: 1vw;
 }
 
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 16px; /* Уменьшим размер шрифта для лучшей читаемости */
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 2vw;
+    }
+
+    .logo {
+        font-size: 3vw; /* Уменьшим размер логотипа */
+        margin-bottom: 1vw; /* Увеличим расстояние между логотипом и навигацией */
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin-bottom: 1vw; /* Увеличим расстояние между элементами меню */
+    }
+
+    .promo-text h2 {
+        font-size: 5vw; /* Увеличим размер заголовка */
+        margin-top: 2vw; /* Увеличим расстояние между заголовком и текстом */
+    }
+
+    .promo-text p {
+        font-size: 3vw; /* Увеличим размер текста */
+    }
+
+    .countdown {
+        font-size: 2vw; /* Уменьшим размер текста */
+        margin-bottom: 3vw; /* Увеличим расстояние между текстом и таймером */
+    }
+
+    #timer {
+        font-size: 3vw; /* Увеличим размер таймера */
+        margin-top: 1vw; /* Увеличим расстояние между таймером и карточками */
+    }
+
+    .card {
+        width: 100%; /* Занимаем 100% ширины экрана */
+    }
+
+    .card h3 {
+        font-size: 3vw; /* Увеличим размер заголовка карточки */
+    }
+
+    .card p {
+        font-size: 2vw; /* Увеличим размер текста в карточке */
+    }
+
+    .card button {
+        font-size: 2vw; /* Увеличим размер кнопки в карточке */
+        margin-top: 1vw; /* Увеличим расстояние между текстом и кнопкой */
+    }
+
+    .highlighted-text {
+        padding: 2vw; /* Увеличим внутренний отступ текста */
+        height: auto; /* Переопределим высоту для контента */
+    }
+
+    .dov {
+        font-size: 5vw; /* Увеличим размер заголовка */
+    }
+
+    .highlighted-text p {
+        font-size: 3vw; /* Увеличим размер текста */
+    }
+
+    .highlighted-text li {
+        font-size: 2.5vw; /* Увеличим размер списка */
+    }
+
+    .feedback-container h2 {
+        font-size: 4vw; /* Увеличим размер заголовка */
+    }
+
+    .feedback-container p {
+        font-size: 2.5vw; /* Увеличим размер текста */
+    }
+
+    .feedback-container li {
+        margin: 1vw 0;
+        font-size: 2vw; /* Увеличим размер списка */
+    }
+
+    .feedback-container a {
+        font-size: 2vw; /* Увеличим размер ссылки */
+    }
+
+    .modal-content {
+        padding: 4vw; /* Увеличим внутренний отступ модального окна */
+    }
+
+    #numberInput {
+        width: 80%;
+        padding: 2vw;
+        margin: 2vw 0;
+        border-radius: 1vw; /* Увеличим радиус скругления углов поля ввода */
+    }
+
+    #submitBtn {
+        padding: 2vw; /* Увеличим отступ кнопки */
+        font-size: 2vw; /* Увеличим размер текста кнопки */
+        width: 40%; /* Уменьшим ширину кнопки для лучшего визуального восприятия */
+    }
+
+    .modal-content p {
+        font-size: 2.3vw; /* Увеличим размер текста в модальном окне */
+    }
+
+    .modal-content a {
+        font-size: 2vw; /* Увеличим размер текста ссылки в модальном окне */
+    }
+
+    .t {
+        flex-direction: column;
+        margin: 2vw;
+    }
+}
