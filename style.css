@@ -338,12 +338,12 @@ body.modal-open {
     }
 
     .countdown {
-        font-size: 2vw; /* Уменьшим размер текста */
+        font-size: 3vw; /* Уменьшим размер текста */
         margin-bottom: 3vw; /* Увеличим расстояние между текстом и таймером */
     }
 
     #timer {
-        font-size: 3vw; /* Увеличим размер таймера */
+        font-size: 5vw; /* Увеличим размер таймера */
         margin-top: 1vw; /* Увеличим расстояние между таймером и карточками */
     }
 
@@ -352,15 +352,15 @@ body.modal-open {
     }
 
     .card h3 {
-        font-size: 3vw; /* Увеличим размер заголовка карточки */
+        font-size: 5vw; /* Увеличим размер заголовка карточки */
     }
 
     .card p {
-        font-size: 2vw; /* Увеличим размер текста в карточке */
+        font-size: 4vw; /* Увеличим размер текста в карточке */
     }
 
     .card button {
-        font-size: 2vw; /* Увеличим размер кнопки в карточке */
+        font-size: 3vw; /* Увеличим размер кнопки в карточке */
         margin-top: 1vw; /* Увеличим расстояние между текстом и кнопкой */
     }
 
@@ -370,32 +370,34 @@ body.modal-open {
     }
 
     .dov {
-        font-size: 5vw; /* Увеличим размер заголовка */
+        font-size: 7vw; /* Увеличим размер заголовка */
     }
 
     .highlighted-text p {
-        font-size: 3vw; /* Увеличим размер текста */
+        font-size: 4vw; /* Увеличим размер текста */
     }
 
     .highlighted-text li {
-        font-size: 2.5vw; /* Увеличим размер списка */
+        font-size: 3.4vw; /* Увеличим размер списка */
+        align-items: center;
+        margin-left: 2vw;
     }
 
     .feedback-container h2 {
-        font-size: 4vw; /* Увеличим размер заголовка */
+        font-size: 6vw; /* Увеличим размер заголовка */
     }
 
     .feedback-container p {
-        font-size: 2.5vw; /* Увеличим размер текста */
+        font-size: 4vw; /* Увеличим размер текста */
     }
 
     .feedback-container li {
         margin: 1vw 0;
-        font-size: 2vw; /* Увеличим размер списка */
+        font-size: 4vw; /* Увеличим размер списка */
     }
 
     .feedback-container a {
-        font-size: 2vw; /* Увеличим размер ссылки */
+        font-size: 5vw; /* Увеличим размер ссылки */
     }
 
     .modal-content {
