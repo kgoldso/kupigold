@@ -311,8 +311,12 @@ body.modal-open {
     }
 
     .logo {
-        font-size: 3vw; /* Уменьшим размер логотипа */
+        font-size: 6vw; /* Уменьшим размер логотипа */
         margin-bottom: 1vw; /* Увеличим расстояние между логотипом и навигацией */
+    }
+
+    .n a {
+        font-size: 3vw;
     }
 
     nav ul {
@@ -321,7 +325,7 @@ body.modal-open {
     }
 
     nav ul li {
-        margin-bottom: 1vw; /* Увеличим расстояние между элементами меню */
+        margin-bottom: 1vw; /* Увеличим расстояние между элементами меню */;
     }
 
     .promo-text h2 {
