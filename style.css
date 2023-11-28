@@ -16,6 +16,9 @@ body {
     background: linear-gradient(135deg, #ffffff, #d6bcbc); /* Светлый градиент */
 }
 
+.modal {
+    z-index: 100;
+}
 
 header {
     display: flex;
